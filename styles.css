@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.titulo-inicial {
+    background-image: url("./padaria1.jpg");
+    background-size: cover;
+    height: 90vh;
+}   
+
+.inicio {
+    color:black;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.nome-empresa{
+    font-size: 38px;
+    display: inline;
+    margin-right: 50px;
+    background-color: yellow;
+}
+
+
+.link-cabeçalho {
+    font-size: 25px;
+    display: inline;
+    color: black;
+    background-color:wheat;
+    margin-left: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+   font-size: 60px;
+   margin-top: 200px;
+    color: yellow;
+
+}
+
+form {
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s linear;
+    background-color: wheat;
+    border-radius: 5px;
+    float: right;
+    padding: 20px;
+    margin-right: 70px;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    bottom: 100px;
+
+}
+
+.seu-pedido {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.titulo-formulario {
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+
+.pedido {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}   
+
+
+button {
+    background-color:#7FFF00;
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 25px;
+}
+
+.whatsapp {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly ;
+    margin-bottom: 50px;
+}
+
+#titulo-meio {
+    font-size: 40px;
+    background-color: wheat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    background: rgb(212, 205, 195);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #D2691E;
+    width: 400px;
+
+}
+
+.titulo-card {
+    background: #CD853F;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 20px;
+    
+
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.localização {
+    background:wheat;
+    border-radius: 5px;
+    margin: 10px;
+    border: red solid 1px;
+}   
+
+#nossa-localização {
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.mapa {
+    margin-left: 420px;
+
+
+}
+
+

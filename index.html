@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confeitaria G&M</title>
+  </head>
+  <body>
+    <div class="titulo-inicial">
+      <div class="inicio">
+        <h2 class="nome-empresa">Panificadora G&M</h2>
+        <a class="link-cabeçalho" onclick="abraSeupedido ()" >Faça seu Pedido </a>
+        <a href="#titulo-meio"  class="link-cabeçalho">Serviços</a>
+        <a href="#nossa-localização"   class="link-cabeçalho">Localização</a>
+      </div>
+
+      <h1>Panificadora G&M</h1>
+
+      <form id="seu-pedido">
+        <h2 class="titulo-formulario">Entre em Contato Conosco:</h2>
+        <h2 class="pedido">Faça já seu pedido em nosso WhatsApp</h2>
+
+        <label>
+          <button>
+            <a href="https://wa.me/5549999975538" class="whatsapp"
+              >Nosso WhatsApp</a
+            >
+          </button>
+        </label>
+      </form>
+    </div>
+
+    <h2 id="titulo-meio">Nossos Serviços</h2>
+
+    <div class="caixa-central">
+      <div class="card">
+        <h3 class="titulo-card">Doces e Salgados para Festas</h3>
+
+        <ul>
+          <li>Salgadinhos em geral</li>
+          <li>Docinhos em geral</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="titulo-card">Entregamos em sua Casa</h3>
+
+        <ul>
+          <li>Pizzas</li>
+          <li>Hambúrguer</li>
+          <li>Bolos</li>
+          <li>Porções</li>
+          <li>Marmitas</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="titulo-card">Bebidas Disponíveis</h3>
+
+        <ul>
+          <li>Refrigerantes</li>
+          <li>Cerveja e Chopp Brahma</li>
+          <li>Sucos Naturais</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="localização">
+      <h4 id="nossa-localização">Nossa Localização</h4>
+
+      <iframe class="mapa"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359.3652300964609!2d-52.667664652465334!3d-26.512287861494496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e5333d7748f4b3%3A0x887ed81f7f691bb3!2sPanificadora%20Santa%20f%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1642468264089!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+    </div>
+  </body>
+
+  <script>
+let pedido = document.getElementById("seu-pedido")
+
+
+function abraSeupedido () {
+  pedido.className = "seu-pedido"
+}
+
+
+  </script>
+
+
+
+
+</html>
